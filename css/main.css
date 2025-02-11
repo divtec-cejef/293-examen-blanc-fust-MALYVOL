@@ -5,17 +5,26 @@
     box-sizing: border-box;
 }
 
+main h1 {
+    text-align: left;
+}
+
 html,
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.3em;
+    max-height: 1.5em;
     background: #fff;
     color: #151515
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
+}
+
+.logo {
+
 }
 
 img {
@@ -71,6 +80,8 @@ main {
 
 /********** PAGE NOS PRODUITS *********/
 .produits {
+    display:inline-block;
+    vertical-align: top;
     list-style-type: none;
     padding: 0;
 }
@@ -88,6 +99,8 @@ main {
     text-align: center;
     margin: 0;
     padding: 1.5rem .75rem;
+    border: 2px solid #151515;
+
 }
 
 .produits figcaption {
@@ -97,6 +110,17 @@ main {
 
 .produits figcaption h2 {
     text-align: center;
+    color: #ff8800;
     margin: .5em 0 0;
     line-height: 1.1;
+}
+
+.e {
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    background: #151515;
+    line-height: 1.4;
+    font-weight: 400;
 }
