@@ -16,7 +16,8 @@ body {
     font-size: 1.3em;
     max-height: 1.5em;
     background: #fff;
-    color: #151515
+    color: #151515;
+    line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -118,9 +119,15 @@ main {
 .e {
     color: #ffffff;
     text-align: center;
-    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
     padding: 2rem;
     background: #151515;
     line-height: 1.4;
     font-weight: 400;
+}
+br {
+    height: 1.5em;
 }
